@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="makina.maintenance">
+
+  <browser:page
+    for="Products.Poi.interfaces.ITracker"
+    name="tracker_view"
+    class=".tracker_view.TrackerView"
+    permission="zope2.View"
+    />
+
+  <browser:page
+    for="Products.Poi.interfaces.IIssue"
+    name="issue_view"
+    class=".tracker_view.TrackerView"
+    template="playlist.pt"
+    permission="zope2.View"
+    />
+
+</configure>

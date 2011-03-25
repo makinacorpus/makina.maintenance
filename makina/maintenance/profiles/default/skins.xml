@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+ <object name="makina_maintenance_custom"
+    meta_type="Filesystem Directory View"
+    directory="makina.maintenance:skins/makina_maintenance_custom"/>
+ <skin-path name="*">
+  <layer name="makina_maintenance_custom"
+     insert-after="custom"/>
+ </skin-path>
+</object>

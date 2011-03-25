@@ -1,0 +1,44 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-03-15 10:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: makina.maintenance\n"
+
+#. Default: "The amount of credits needed to solve that issue"
+#: ./i18n.py:12
+msgid "issue_credits_desc"
+msgstr ""
+
+#. Default: "Needed maintenance credits"
+#: ./i18n.py:10
+msgid "issue_credits_label"
+msgstr ""
+
+#. Default: "You have ${credits} credits available."
+#: ./skins/makina_maintenance_custom/poi_tracker_view.pt:119
+msgid "poi_tracker_view_remaining_credits"
+msgstr ""
+
+#. Default: "The amount of credits you can spend on maintenance"
+#: ./i18n.py:7
+msgid "tracker_credits_desc"
+msgstr ""
+
+#. Default: "Available maintenance credits"
+#: ./i18n.py:5
+msgid "tracker_credits_label"
+msgstr ""
+
